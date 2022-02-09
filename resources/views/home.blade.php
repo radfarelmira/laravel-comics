@@ -6,12 +6,14 @@
 
 @section('main_content')
     
-    <section>
-        @include('components.jumbotron')
-    </section>
+    
+    @include('components.jumbotron')
+    
 
-    <section>
-        MAIN
+    <section class="products">
+        <div class="container">
+            @include('components.products-list', $data)
+        </div>
     </section>
 
 @endsection

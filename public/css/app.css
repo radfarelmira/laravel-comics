@@ -19,52 +19,71 @@ header .header-top {
   color: whitesmoke;
   padding: 5px 0;
 }
-
 header .header-top .container span {
   margin-left: 20px;
 }
-
 header .header-bottom {
   padding: 20px 0;
   font-weight: bold;
 }
-
 header .header-bottom .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 header .header-bottom .container .logo img {
   max-width: 80px;
 }
-
 header .header-bottom .container .menu ul {
   margin: 0;
   padding: 0;
 }
-
 header .header-bottom .container .menu ul li {
   display: inline-block;
   margin-right: 20px;
 }
-
 header .header-bottom .container .menu ul li a {
   display: inline-block;
   color: #1c1c1c;
   text-decoration: none;
   text-transform: uppercase;
 }
-
 header .header-bottom .container .menu ul li a:hover {
   color: #0282f9;
 }
-
 header .header-bottom .container .menu ul li .active {
   color: #0282f9;
 }
 
 main .jumbotron {
-  background-image: url("");
+  background-image: url("../images/jumbotron.jpg");
+  height: 300px;
+  background-size: cover;
 }
-
+main .products {
+  background-color: #1c1c1c;
+  padding: 20px 0;
+  color: whitesmoke;
+}
+main .products .products-list {
+  text-transform: uppercase;
+}
+main .products .products-list h2 {
+  font-size: 40px;
+}
+main .products .products-list .row {
+  margin-top: 20px;
+}
+main .products .products-list .row .col {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+main .products .products-list .row .col .image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+main .products .products-list .row .col p {
+  margin-top: 10px;
+  font-size: 18px;
+}

@@ -2,5 +2,40 @@ main{
     
     .jumbotron{
         background-image: url('../images/jumbotron.jpg');
+        height: 300px;
+        background-size: cover;
+    }
+
+    .products{
+        background-color: $secondary-color;
+        padding: 20px 0;
+        color: whitesmoke;
+
+        .products-list{
+            text-transform: uppercase;
+            
+            h2{
+                font-size: 40px;
+            }
+
+            .row{
+                margin-top: 20px;
+                .col{
+                    margin-top: 0;
+                    margin-bottom: 40px;
+                    .image{
+                        width: 200px;
+                        height: 200px;
+                        overflow: hidden;
+                    }
+
+                    p{
+                        margin-top: 10px;
+                        font-size: 18px;
+                        
+                    }
+                }
+            }
+        }
     }
 }

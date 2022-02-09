@@ -1,3 +1,2 @@
-<div class="jumbotron">
-    Jumbotron
-</div>
+<section class="jumbotron">
+</section>
