@@ -12,7 +12,10 @@
 
     <section class="products">
         <div class="container">
-            @include('components.products-list', $data)
+            @include('components.products-list', [
+                'title' => 'current series',
+                'comics' => $comics
+            ])
         </div>
     </section>
 
