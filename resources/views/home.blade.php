@@ -19,4 +19,6 @@
         </div>
     </section>
 
+    @include('components.links')
+
 @endsection

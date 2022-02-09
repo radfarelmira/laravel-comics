@@ -13,7 +13,7 @@ main{
 
         .products-list{
             text-transform: uppercase;
-            
+
             h2{
                 font-size: 40px;
             }
@@ -37,5 +37,39 @@ main{
                 }
             }
         }
+    }
+
+    .links{
+        background-color: $primary_color;
+        padding: 20px 0;
+
+        .container{
+
+            ul{
+                display: flex;
+                justify-content: space-between;
+    
+                li{
+                    display: inline-block;
+                    color: whitesmoke;
+    
+                    img{
+                        height: 50px;
+                        margin-right: 10px;
+                    }
+    
+                    a{
+                        display: inline-block;
+                        color: inherit;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                    
+                }
+    
+                
+            }
+        }
+
     }
 }
