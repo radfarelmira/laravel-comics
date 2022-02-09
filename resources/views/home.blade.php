@@ -5,6 +5,11 @@
 @endsection
 
 @section('main_content')
+    
+    <section>
+        @include('components.jumbotron')
+    </section>
+
     <section>
         MAIN
     </section>

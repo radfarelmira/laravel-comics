@@ -64,3 +64,7 @@ header .header-bottom .container .menu ul li .active {
   color: #0282f9;
 }
 
+main .jumbotron {
+  background-image: url("");
+}
+
