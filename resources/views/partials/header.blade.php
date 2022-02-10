@@ -15,12 +15,12 @@
             <div class="menu">
                 <ul>
                     <li>
-                        <a class="active" href="#">
-                            characters 
+                        <a href="{{ route('homepage')}}" class="{{ Request::route()->getName() === 'homepage' ? 'active' : ''}}">
+                            home 
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route('comics')}}" class="{{ Request::route()->getName() === 'comics' ? 'active' : ''}}">
                             comics
                         </a>
                     </li>

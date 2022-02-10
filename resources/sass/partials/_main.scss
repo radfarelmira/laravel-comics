@@ -20,19 +20,30 @@ main{
 
             .row{
                 margin-top: 20px;
+
                 .col{
                     margin-top: 0;
                     margin-bottom: 40px;
+
                     .image{
                         width: 200px;
                         height: 200px;
                         overflow: hidden;
                     }
 
-                    p{
-                        margin-top: 10px;
-                        font-size: 18px;
+                    a{ 
+                        display: inline-block;
+                        text-decoration: none;
+                        color: inherit; 
                         
+                        p{
+                            padding-top: 10px;
+                            font-size: 18px;
+                        }
+                    }
+
+                    a:hover{
+                        color: blue;
                     }
                 }
             }
@@ -70,6 +81,58 @@ main{
                 
             }
         }
+    }
 
+    .comics{
+
+        .comics-top{
+            padding: 20px 0;
+            .sm-container{
+                margin: auto;
+                .row{
+                    padding: 0;
+                    .col-left{
+                        width: 60%;
+
+                        h2{
+                            padding-left: 5px;
+                        }
+
+                        .table-head{
+                            background-color: #55ba59;
+                            padding: 5px;
+                            color: #aef68e;
+
+                            span{
+                                color: whitesmoke;
+                            }
+                        }
+
+                        p{
+                            padding-left: 5px;
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .col-right{
+                        width: 40%;
+                        .image{
+                            max-height: 600px;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+        }
+
+        .comics-bottom{
+            background-color: #f6f6f6;
+            border-top: 1px solid lightgray;
+            padding-top: 10px;
+            .sm-container{
+                margin: auto;
+            }
+        }
+        
     }
 }
