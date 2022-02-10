@@ -14,14 +14,14 @@
                 <div class="row">
                     {{-- col left --}}
                     <div class="col-left">
-                        <h2></h2>
-                        <div class="table-head">U.S. Price: <span>[price]</span> </div>
-                        <p>[description]</p>
+                        <h2>{{ $comic_info['title']}}</h2>
+                        <div class="table-head">U.S. Price: <span>{{ $comic_info['price']}}</span> </div>
+                        <p>{{ $comic_info['description']}}</p>
                     </div>
                     {{-- col right --}}
                     <div class="col-right">
                         <div class="image">
-                            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="">
+                            <img src="{{ $comic_info['thumb']}}" alt="{{ $comic_info['title']}}">
                         </div>
                     </div>
                 </div>

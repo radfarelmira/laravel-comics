@@ -129,6 +129,7 @@ main .comics .comics-top .sm-container {
 }
 main .comics .comics-top .sm-container .row {
   padding: 0;
+  align-items: center;
 }
 main .comics .comics-top .sm-container .row .col-left {
   width: 60%;
@@ -150,10 +151,6 @@ main .comics .comics-top .sm-container .row .col-left p {
 }
 main .comics .comics-top .sm-container .row .col-right {
   width: 40%;
-}
-main .comics .comics-top .sm-container .row .col-right .image {
-  max-height: 600px;
-  overflow: hidden;
 }
 main .comics .comics-bottom {
   background-color: #f6f6f6;

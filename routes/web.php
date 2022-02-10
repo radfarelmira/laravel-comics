@@ -46,3 +46,8 @@ Route::get('/comics/{id}', function ($id) {
 
     return view('comics', $data);
 })->name('comics');
+
+
+Route::get('/news', function () {
+    return view('news');
+})->name('news');

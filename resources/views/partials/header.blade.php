@@ -20,7 +20,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('comics')}}" class="{{ Request::route()->getName() === 'comics' ? 'active' : ''}}">
+                        <a href="" class="{{ Request::route()->getName() === 'comics' ? 'active' : ''}}" >
                             comics
                         </a>
                     </li>
@@ -55,7 +55,7 @@
                         </a>  
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route('news')}}" class="{{ Request::route()->getName() === 'news' ? 'active' : ''}}">
                             news
                         </a>
                     </li>
